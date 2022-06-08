@@ -78,6 +78,8 @@
         margin: 0 4px;
         line-height: 20px;
 
+        word-break: break-all;
+
         // 전역설정
         //&.sortable-ghost{
         :global(&.sortable-ghost){
