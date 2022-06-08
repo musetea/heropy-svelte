@@ -1,0 +1,28 @@
+{
+  "name": "trello",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.4.7",
+    "lodash-es": "^4.17.21",
+    "postcss": "^8.4.14",
+    "sass": "^1.52.1",
+    "sortablejs": "^1.15.0",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.6",
+    "uuid": "^8.3.2"
+  },
+  "type": "module"
+}

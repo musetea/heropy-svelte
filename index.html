@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .list{
+            width: 290px;
+            height: 100%;
+            border: 10px solid red;
+            box-sizing: border-box;
+        }
+        .list__inner{
+            border: 10px solid blue;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            max-height: 100%;
+        }
+
+        .list__heading{
+            border: 10px solid green;
+            box-sizing: border-box;
+        }
+        .list__cards{
+            
+            border: 10px solid orange;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .list__cards .card {
+            height: 150px;
+            border: 10px solid;
+            box-sizing: border-box;
+        }
+        .list_create-card{
+            border: 10px solid gray;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <div class="list__inner">
+            <div class="list__heading"></div>
+            <div class="list__cards">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <div class="list_create-card"></div>
+        </div>
+    </div>
+</body>
+</html>
